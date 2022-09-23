@@ -6,7 +6,6 @@ contract CrowdFound {
   address payable public fundRecepient;
   uint public minimumToRaise;
   string campaginURL;
-
   //Structures
   enum State { Fundraising, ExpiredRefund, Successful}
   
